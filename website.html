@@ -17,35 +17,41 @@
 <body>
    <div class="container display-grid">
         <header>
-            <div class="container-text-header">
-                <div class="header-menu">
-                    <div class="header-menu display-flex align-center justify-between padding-header">
-                        <div class="menu-b display-flex align-center">
-                            <img src="./images/Logo.png">
+            <div class="containerTextHeader">
+                <div class="menu">
+                    <div class="menu__padding display-flex align-center justify-between">
+                        <div class="logo display-flex align-center">
+                            <img src="./images/Logo.png" class="logo__image">
                         </div>
-                        <div class="menu-ul">
+                        <div class="menuConnection">
                             <ul class="display-flex justify-around align-center">
-                                <li><a href="#">خانه</a></li>
-                                <li><a href="#">فروشگاه</a></li>
-                                <li><a href="#">درباره ما</a></li>
+                                <li class="menuConnection__item"><a href="#" class="menuConnection__link">خانه</a></li>
+                                <li class="menuConnection__item"><a href="#" class="menuConnection__link">فروشگاه</a></li>
+                                <li class="menuConnection__item"><a href="#" class="menuConnection__link">درباره ما</a></li>
                             </ul>
                         </div>
-                        <div class="menu-a display-flex justify-between align-center">
-                            <a href="#">ورود به داشبورد</a>
-                            <a href="#">دانلود اپلیکیشن</a>
+                        <div class="menuDownloadAndLogin display-flex justify-between align-center">
+                            <a href="#" class="menuDownloadAndLogin__link">ورود به داشبورد</a>
+                            <a href="#" class="menuDownloadAndLogin__link">دانلود اپلیکیشن</a>
                         </div>
-                        <div class="menu-mobile display-flex align-center">
-                            <a href="#">فروشگاه بانواز</a>
-                            <label for="berger">
-                                <i class='bx bx-menu menu-icon'></i>
+                        <div class="menuMobileShop display-flex align-center">
+                            <a href="#" class="menuMobileShop__link">فروشگاه بانواز</a>
+                            <label for="Burger" class="menuMobileShop__lable">
+                                <i class='bx bx-menu menuMobileShop__icon'></i>
                              </label>
                         </div>
-                         <input type="checkbox" id="berger">
-                        <div class="menu-mobile-berger">
-                            <ul class="menu-berger">
-                                <li><a href="#">خانه</a></li>
-                                <li><a href="#">فروشگاه</a></li>
-                                <li><a href="#">درباره ما</a></li>
+                        <input type="checkbox" id="Burger" class="inputForIconBurger">
+                        <div class="mobileBurgerContainer">
+                            <ul class="mobileBurgerContainer__menu">
+                                <li class="mobileBurgerContainer__item">
+                                    <a href="#" class="mobileBurgerContainer__link">خانه</a>
+                                </li>
+                                <li class="mobileBurgerContainer__item">
+                                    <a href="#" class="mobileBurgerContainer__link">فروشگاه</a>
+                                </li>
+                                <li class="mobileBurgerContainer__item">
+                                    <a href="#" class="mobileBurgerContainer__link">درباره ما</a>
+                                </li>
                             </ul>
                         </div>
                     </div> 
