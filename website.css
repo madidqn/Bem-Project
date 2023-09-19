@@ -398,9 +398,6 @@ footer {
 /* @@@@@@@@@@@@@@@@ start responsive @@@@@@@@@@@@@@@@ */
 @media (max-width: 700px) {
   /* start menu */
-  .header-menu {
-    position: relative;
-  }
   .menuConnection {
     display: none;
   }
