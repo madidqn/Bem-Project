@@ -173,23 +173,23 @@ header {
 .management {
   padding: 4rem 0;
 }
-.management h1 {
+.management__title {
   padding-bottom: 2rem;
   color: var(--light-color);
   word-spacing: 2px;
   font-size: 50px;
 }
-.management-p {
+.management__txt {
   font-size: 25px;
   line-height: 30px;
   padding-bottom: 0.5rem;
   word-spacing: 1px;
   color: var(--light-color);
 }
-.padding-p {
+.management__txt--paddingBottom {
   padding-bottom: 2rem;
 }
-.management img {
+.management__image {
   width: 600px;
   height: 150px;
   padding-top: 2rem;
@@ -517,14 +517,14 @@ footer {
     padding-bottom: 1rem;
   }
   /* start management */
-  .management h1 {
+  .management__title {
     font-size: 30px;
   }
-  .management-p {
+  .management__txt {
     font-size: 18px;
     text-align: right;
   }
-  .management img {
+  .management__image {
     width: 400px;
     height: 100px;
   }
