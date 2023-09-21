@@ -196,40 +196,40 @@ header {
 }
 /* @@@@@@@@@@@@@@@@ start main @@@@@@@@@@@@@@@@ */
 /* start child */
-.main-child {
+.imageChildContainer {
   background-color: aliceblue;
 }
-.child {
+.imageChildContainer__gridContainer {
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 1em;
 }
-.child img {
+.imageChildContainer__image {
   width: 80%;
   height: 100%;
 }
-.child-text h1 {
+.imageChildContainer__title {
   padding-bottom: 2rem;
   color: var(--darkblue-color);
   word-spacing: 4px;
   font-size: 50px;
 }
-.child-text p {
+.imageChildContainer__txt {
   font-size: 28px;
   padding-bottom: 2rem;
   word-spacing: 4px;
   color: var(--dark-color);
 }
-.child-a {
+.imageChildContainer__linkContainer {
   padding-top: 1.5rem;
 }
-.child-a a {
+.imageChildContainer__link {
   padding: 10px 1.5rem;
   border: 2px var(--darkblue-color) solid;
   border-radius: 4px;
   font-size: 18px;
   color: var(--darkblue-color);
 }
-.child-a a:hover {
+.imageChildContainer__link:hover {
   background-color: var(--aqua-color);
   color: var(--light-color);
   border: 6px var(--dark-color) double;
@@ -529,30 +529,30 @@ footer {
     height: 100px;
   }
   /* start child */
-  .child {
+  .imageChildContainer__gridContainer {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
-  .child img {
+  .imageChildContainer__image {
     width: 100%;
   }
-  .child-text {
+  .imageChildContainer__txtContainer {
     padding-right: 20px;
   }
-  .child-text h1 {
+  .imageChildContainer__title {
     font-size: 30px;
     padding-bottom: 2rem;
     padding-top: 3rem;
   }
-  .child-text p {
+  .imageChildContainer__txt {
     font-size: 18px;
     padding-bottom: 1rem;
   }
-  .child-a {
+  .imageChildContainer__linkContainer {
     padding-top: 2rem;
     padding-bottom: 4rem;
   }
-  .child-a a {
+  .imageChildContainer__link {
     padding: 5px 1rem;
   }
   /* start phone */
