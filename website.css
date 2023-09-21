@@ -44,7 +44,7 @@ body {
 header {
   background-color: var(--aqua-color);
 }
-.containerTextHeader {
+.headerContainer {
   width: 90%;
   margin: 0 auto;
 }
@@ -237,41 +237,41 @@ header {
   display: inline-block;
 }
 /* start phone */
-.container-text-80 {
+.width80Container {
   width: 80%;
   margin: 0 auto;
 }
-.padding-phone {
+.imagePhoneContainer {
   grid-template-columns: 1fr 3fr;
   grid-gap: 15%;
   padding: 4rem 0;
 }
-.padding-phone img {
+.imagePhoneContainer__image {
   width: 100%;
   height: 100%;
 }
-.padding-phone h1 {
+.imagePhoneContainer__title {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: var(--darkblue-color);
   word-spacing: 4px;
   font-size: 60px;
 }
-.padding-phone p {
+.imagePhoneContainer__txt {
   font-size: 28px;
   line-height: 45px;
   padding-bottom: 3rem;
   word-spacing: 4px;
   color: var(--dark-color);
 }
-.padding-phone a {
+.imagePhoneContainer__link {
   padding: 10px 1.5rem;
   border: 2px var(--darkblue-color) solid;
   border-radius: 4px;
   font-size: 18px;
   color: var(--darkblue-color);
 }
-.padding-phone a:hover {
+.imagePhoneContainer__link:hover {
   background-color: var(--aqua-color);
   color: var(--light-color);
   border: 6px var(--dark-color) double;
@@ -279,105 +279,104 @@ header {
   display: inline-block;
 }
 /* start special */
-.image-special {
+.gallerySpecial {
   background-color: var(--aqua-color);
 }
-.padding-special {
+.gallerySpecialContainer {
   padding: 3rem 0;
 }
-.padding-special h1 {
+.gallerySpecialContainer__title {
   color: var(--darkblue-color);
   word-spacing: 4px;
   font-size: 60px;
   padding-bottom: 3rem;
 }
-.box-image {
+.gallerySpecialContainer__boxImageAndSubtitle {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
 }
-.box-image img {
+.gallerySpecialContainer__image {
   width: 100%;
   border-radius: 1rem;
   border: 4px var(--aqua-color) dashed;
 }
-.box-image img:hover {
+.gallerySpecialContainer__image:hover {
   border: 6px var(--dark-color) double;
   transform: rotateY(200deg);
 }
-.box-image-text .box-image-p {
+.gallerySpecialContainer__txt {
   padding-top: 2rem;
   line-height: 30px;
   font-size: 18px;
 }
-.box-image-text .box-image-p- {
+.gallerySpecialContainer__txt--WithoutPadding {
   line-height: 30px;
   font-size: 18px;
 }
 /* start friends */
-.padding-friends {
+.friendsContainer {
   grid-template-columns: 1fr 1fr;
   padding: 2rem 0;
 }
-.padding-friends img {
-  width: 100%;
-}
-.padding-friends h1 {
+.friendsContainer__title {
   color: var(--darkblue-color);
   word-spacing: 4px;
   font-size: 65px;
 }
-.padding-friends p {
+.friendsContainer__txt {
   font-size: 28px;
   padding-top: 3rem;
   word-spacing: 4px;
   color: var(--dark-color);
+}
+.friendsContainer__image {
+  width: 100%;
 }
 /* @@@@@@@@@@@@@@@@ start footer @@@@@@@@@@@@@@@@ */
 footer {
   background-color: darkturquoise;
 }
 /* start media */
-.media {
+.connection {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.media h3 {
+.connection__title {
   color: var(--light-color);
   padding-bottom: 1rem;
   font-size: 26px;
 }
-.media li {
+.connection__item {
   padding-bottom: 20px;
 }
-.media li a {
+.connection__link {
   color: var(--light-color);
   font-size: 18px;
 }
-.media li a:hover {
+.connection__link:hover {
   color: var(--darkblue-color);
   transform: skewX(-25deg);
   display: inline-block;
 }
-.media img {
+.connection__image {
   padding-bottom: 20px;
   display: block;
 }
-.media img:hover {
+.connection__image:hover {
   transform: skewX(-25deg);
   display: inline-block;
 }
-/* start socialmedia */
-.social-media {
+/* start socialMedia */
+.socialMedia {
   border-top: 2px aliceblue solid;
 }
-
-.padding-social-media {
+.socialMediaContainer {
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 0;
 }
-.icons a {
+.socialMediaContainer__link {
   display: inline-flex;
   text-align: center;
   padding: 10px;
@@ -385,14 +384,14 @@ footer {
   border-radius: 50%;
   margin: 0 5px;
 }
-.icons a i {
+.socialMediaContainer__icon {
   font-size: 22px;
   color: white;
 }
-.icons a:hover {
+.socialMediaContainer__link:hover {
   background-color: darkmagenta;
 }
-.padding-social-media p {
+.socialMediaContainer__txt {
   justify-content: flex-end;
 }
 /* @@@@@@@@@@@@@@@@ start responsive @@@@@@@@@@@@@@@@ */
@@ -556,68 +555,68 @@ footer {
     padding: 5px 1rem;
   }
   /* start phone */
-  .padding-phone {
+  .imagePhoneContainer {
     grid-template-columns: 1fr;
     padding: 2rem 0;
     grid-gap: 0;
   }
-  .padding-phone img {
+  .imagePhoneContainer__image {
     height: 80%;
   }
-  .padding-phone h1 {
+  .imagePhoneContainer__title {
     padding-top: 0;
     padding-bottom: 1rem;
     font-size: 30px;
   }
-  .padding-phone p {
+  .imagePhoneContainer__txt {
     font-size: 18px;
     line-height: 35px;
     padding-bottom: 1rem;
   }
-  .padding-phone a {
-    padding: 5px 1rem;
-  }
-  .phone-a {
+  .imagePhoneContainer__linkContainer {
     padding-top: 1rem;
     padding-bottom: 4rem;
   }
+  .imagePhoneContainer__link {
+    padding: 5px 1rem;
+  }
   /* start special  */
-  .padding-special h1 {
+  .gallerySpecialContainer__title {
     font-size: 30px;
   }
-  .box-image {
+  .gallerySpecialContainer__boxImageAndSubtitle {
     grid-template-columns: repeat(2, 1fr);
   }
   /* start friends */
-  .padding-friends {
+  .friendsContainer {
     grid-template-columns: 1fr;
   }
-  .padding-friends h1 {
+  .friendsContainer__title {
     font-size: 35px;
   }
-  .padding-friends p {
+  .friendsContainer__txt {
     font-size: 18px;
   }
-  /* start media */
-  .media {
+  /* start connection */
+  .connection {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
   }
-  .padding-social-media {
-    grid-template-columns: 1fr;
-  }
-  .media h3 {
+  .connection__title {
     font-size: 22px;
   }
-  .media img {
+  .connection__image {
     width: 100%;
   }
-  /* start socialmedia */
-  .icons {
+  /* start socialMedia */
+  .socialMediaContainer {
+    grid-template-columns: 1fr;
+  }
+  .socialMediaContainer__icons {
     text-align: center;
     padding-bottom: 2rem;
   }
-  .padding-social-media p {
+  .socialMediaContainer__txt {
     justify-content: center;
   }
 }
